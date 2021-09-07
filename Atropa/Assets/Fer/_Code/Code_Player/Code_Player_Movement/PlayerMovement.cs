@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
     private bool active;
     private Vector3 movementDirection;
     private Vector3 velocity;
+    private Vector3 CamR;
+    private Vector3 CamF;
     private float verticalSpeed;
     public float movementSpeed = 1.0f;
     public float gravity = 9.8f;
@@ -66,21 +68,27 @@ public class PlayerMovement : MonoBehaviour
     void CheckInputKeyBoard()
     {
         movementDirection = Vector3.zero;
+        CamF = Camera.main.transform.forward;
+        CamR = Camera.main.transform.right;
+        CamF.y = 0;
+        CamR.y = 0;
+        CamF = CamF.normalized;
+        CamR = CamR.normalized;
         if (keyBoard.wKey.isPressed)
         {
-            movementDirection += Vector3.forward;
+            movementDirection +=CamF;
         }
         if (keyBoard.sKey.isPressed)
         {
-            movementDirection += Vector3.back;
+            movementDirection -= CamF;
         }
         if (keyBoard.aKey.isPressed)
         {
-            movementDirection += Vector3.left;
+            movementDirection -= CamR;
         }
         if (keyBoard.dKey.isPressed)
         {
-            movementDirection += Vector3.right;
+            movementDirection += CamR;
         }
         if (characterController.isGrounded)
         {
@@ -95,6 +103,7 @@ public class PlayerMovement : MonoBehaviour
             movementDirection.Normalize();
             Move(movementDirection);
     }
+
 
     void Move(Vector3 direction)
     {
