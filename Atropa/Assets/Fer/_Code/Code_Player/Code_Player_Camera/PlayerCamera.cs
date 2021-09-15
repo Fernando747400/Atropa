@@ -3,114 +3,145 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerCamera : MonoBehaviour
+namespace com.amerike.Fernando
 {
+	public class PlayerCamera : MonoBehaviour
+	{
+		public delegate void HandlerPlayerCam (PlayerCamera sender);
+		public event HandlerPlayerCam OnUse;
+		public event HandlerPlayerCam OnGrab;
 
-    #region Get&Set
-    public bool Active
-    {
-        get
-        {
-            return active;
-        }
-        set
-        {
-            active = value;
-        }
-    }
-    public bool InvertedYAxis
-    {
-        get
-        {
-            return invertedYAxis;
-        }
-        set
-        {
-            invertedYAxis = value;
-        }
-    }
-    #endregion
+		[HideInInspector] public GameObject GrabbedObj;
 
-    Mouse mouse;
-    Camera mainCamera;
+		Mouse mouse;
+		Camera myCamera;
+		float rotationLimit = 0f;
+		float rotationX = 0f;
 
-    [SerializeField]private bool invertedYAxis;
-    private GameObject player;
-    private bool active;
-    void Prepare()
-    {
-        #if UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX || UNITY_EDITOR
-        mouse = Mouse.current;
+		[Header("Player")]
+		[SerializeField] private Transform player;
+
+		[Header("Camera")]
+		[Range(0f, 1f)]
+		[SerializeField] private float speedCamera = 1;
+
+		[Header("Rycast")]
+
+		[Range(0f, 100f)]
+		[SerializeField] float distanceHit;
+
+		bool active;
+		bool invertedYAxis;
+		bool invertedXAxis;
+		public bool Active
+		{
+			get { return active; }
+			set { active = value; }
+		}
+		public bool InvertedYAxis
+		{
+			get { return invertedYAxis; }
+			set { invertedYAxis = value; }
+		}
+		public bool InvertedXAxis
+		{
+			get { return invertedXAxis; }
+			set { invertedYAxis = value; }
+		}
+
+		void Start()
+		{
+			Prepare();
+		}
+
+
+		void FixedUpdate()
+		{
+			if (active)
+			{
+
+				if (mouse != null && myCamera != null) CheckMouseInput();
+			}
+		}
+
+		void Prepare()
+		{
+#if UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_EDITOR || UNITY_STANDALONE_LINUX
+			mouse = Mouse.current;
 #endif
-        try
-        {
-            mainCamera = Camera.main;
-        }
-        catch
-        {
-            mainCamera = GetComponent<Camera>();
-        }
-        active = true;
-        player = this.transform.parent.gameObject;
-    }
 
-    public void Start()
-    {
-        Prepare();
-    }
+			try { myCamera = Camera.main; }
+			catch { myCamera = GetComponent<Camera>(); }
 
-    public void Update()
-    {
-        if (active)
-        {
-            if(mouse != null && mainCamera !=null)
+			active = true;
+			Cursor.lockState = CursorLockMode.Locked;
+			Cursor.visible = false;
+		}
+
+		void CheckMouseInput()
+		{
+			Vector2 mouseMovement = mouse.delta.ReadValue();
+			rotationX = mouseMovement.x * speedCamera;
+			rotationLimit += mouseMovement.y * speedCamera;
+			rotationLimit = Mathf.Clamp(rotationLimit, -80, 80f);
+
+			if (!invertedYAxis)
+				myCamera.transform.localRotation = Quaternion.Euler(rotationLimit * -1, 0, 0);
+
+			if (invertedYAxis)
+				myCamera.transform.localRotation = Quaternion.Euler(rotationLimit * 1, 0, 0);
+
+			if (!invertedXAxis)
+				player.Rotate(Vector3.up * rotationX);
+			if (invertedXAxis)
+				player.Rotate(Vector3.up * rotationX * -1);
+
+
+			if (mouse.leftButton.isPressed)
+			{
+				GetViewInfo();
+			}
+
+			if (mouse.rightButton.isPressed)
             {
-                CheckInputMouse();
+				leaveObject();
             }
-        }
-    }
+		}
 
-    public void FixedUpdate()
-    {
-        
-    }
+		void GetViewInfo()
+		{
+			RaycastHit hit;
+			Vector2 coordinate = new Vector2(Screen.width / 2, Screen.height / 2);
+			Ray myRay = myCamera.ScreenPointToRay(coordinate);
+			if (Physics.Raycast(myRay, out hit, distanceHit))
+			{
+				//print (hit.transform.name + "" + hit.point);
+				IUsable usable = hit.transform.GetComponent<IUsable>();
+				if (usable != null)
+				{
+					usable.Use();
+				}
+				Grabbable grab = hit.transform.GetComponent<Grabbable>();
+				if (grab != null)
+				{
+					GrabbedObj = grab.gameObject;
+					if (OnGrab != null)//si alguien esta suscrito a este evento
+					{
+						OnGrab(this);
+						player.gameObject.GetComponent<PlayerMovement>().Active = false;
+					}
+				}
+			}
+		}
 
-    void CheckInputMouse()
-    {
-        Vector2 mouseMovement = mouse.delta.ReadValue();
-        if (!invertedYAxis)
+		void leaveObject()
         {
-            mainCamera.transform.Rotate(mouseMovement.y * -1, 0, 0);
+			if (GrabbedObj != null)
+            {
+				GrabbedObj.GetComponent<Grabbable>().droppObject();
+				GrabbedObj = null;
+				player.gameObject.GetComponent<PlayerMovement>().Active = true;
+			}
         }
-        if (invertedYAxis)
-        {
-            mainCamera.transform.Rotate(mouseMovement.y, 0, 0);
-        }
-
-        player.transform.Rotate(0,mouseMovement.x,0);
-        
-        if(mainCamera.transform.eulerAngles.x >= 0 && mainCamera.transform.eulerAngles.x <= 90)
-        {
-            mainCamera.transform.eulerAngles = new Vector3 (Mathf.Clamp(mainCamera.transform.eulerAngles.x,0,90),player.transform.eulerAngles.y,0);
-        } else if (mainCamera.transform.eulerAngles.x <=360 && mainCamera.transform.eulerAngles.x >= 270)
-        {
-            mainCamera.transform.eulerAngles = new Vector3(Mathf.Clamp(mainCamera.transform.eulerAngles.x, 270, 360), player.transform.eulerAngles.y, 0);
-        }
-
-        if (mouse.leftButton.isPressed)
-        {
-            GetViewInfo();
-        }
-    }
-
-    void GetViewInfo()
-    {
-        RaycastHit hitInfo;
-        Vector2 coordinate = new Vector2(Screen.width / 2, Screen.height / 2);
-        Ray myRay = mainCamera.ScreenPointToRay(coordinate);
-        if (Physics.Raycast(myRay, out hitInfo,100))
-        {
-            print(hitInfo.transform.name + " " + hitInfo.point);
-        }
-    }
+	}
 }
