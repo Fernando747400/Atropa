@@ -24,8 +24,9 @@ namespace com.amerike.Fernando
 		[SerializeField] private Transform player;
 
 		[Header("Camera")]
-		[Range(0f, 1f)]
-		[SerializeField] private float speedCamera = 1;
+		[SerializeField] private FloatVariable speedCamera;
+		[SerializeField] private BoolVariable invertedYAxis;
+		[SerializeField] private BoolVariable invertedXAxis;
 
 		[Header("Rycast")]
 
@@ -33,22 +34,10 @@ namespace com.amerike.Fernando
 		[SerializeField] float distanceHit;
 
 		bool active;
-		bool invertedYAxis;
-		bool invertedXAxis;
 		public bool Active
 		{
 			get { return active; }
 			set { active = value; }
-		}
-		public bool InvertedYAxis
-		{
-			get { return invertedYAxis; }
-			set { invertedYAxis = value; }
-		}
-		public bool InvertedXAxis
-		{
-			get { return invertedXAxis; }
-			set { invertedYAxis = value; }
 		}
 
 		void Start()
@@ -83,19 +72,19 @@ namespace com.amerike.Fernando
 		void CheckMouseInput()
 		{
 			Vector2 mouseMovement = mouse.delta.ReadValue();
-			rotationX = mouseMovement.x * speedCamera;
-			rotationLimit += mouseMovement.y * speedCamera;
+			rotationX = mouseMovement.x * speedCamera.Value;
+			rotationLimit += mouseMovement.y * speedCamera.Value;
 			rotationLimit = Mathf.Clamp(rotationLimit, -80, 80f);
 
-			if (!invertedYAxis)
+			if (invertedYAxis.Value == false)
 				myCamera.transform.localRotation = Quaternion.Euler(rotationLimit * -1, 0, 0);
 
-			if (invertedYAxis)
+			if (invertedYAxis.Value)
 				myCamera.transform.localRotation = Quaternion.Euler(rotationLimit * 1, 0, 0);
 
-			if (!invertedXAxis)
+			if (invertedXAxis.Value == false)
 				player.Rotate(Vector3.up * rotationX);
-			if (invertedXAxis)
+			if (invertedXAxis.Value)
 				player.Rotate(Vector3.up * rotationX * -1);
 
 
