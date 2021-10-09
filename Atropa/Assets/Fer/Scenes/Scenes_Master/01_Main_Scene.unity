@@ -4399,6 +4399,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034541269375484759, guid: a2631485b8201df46b6e41596fd477a1, type: 3}
   m_PrefabInstance: {fileID: 269313472}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &273313470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5454560879186951668, guid: f888a5805efe22c4295dedd2277653cb, type: 3}
+  m_PrefabInstance: {fileID: 774848544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &273313471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273313470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: He also loves the donuts from that coffee shop.
 --- !u!1 &277240385
 GameObject:
   m_ObjectHideFlags: 0
@@ -4492,6 +4510,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &277329775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1034541269375524727, guid: a2631485b8201df46b6e41596fd477a1, type: 3}
+  m_PrefabInstance: {fileID: 652324712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &277329776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277329775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'Always loved the smell of our shop. My mom used to spend extra just on
+    this soap. '
 --- !u!1001 &282553450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5318,8 +5355,9 @@ GameObject:
   - component: {fileID: 336631959}
   - component: {fileID: 336631961}
   - component: {fileID: 336631960}
+  - component: {fileID: 336631962}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: TextDialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5332,7 +5370,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336631958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5448,6 +5486,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336631958}
   m_CullTransparentMesh: 1
+--- !u!114 &336631962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336631958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c13f4a28a38335b49a9ce4bbdcb43b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogCanvas: {fileID: 1910296127}
+  textSpeed: 0.05
+  myText: Test of a dialog
 --- !u!1001 &339370454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7415,6 +7468,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &436471872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6059195814983709903, guid: 0c1a7f17c6825c54b90ba2bf623164c1, type: 3}
+  m_PrefabInstance: {fileID: 1163165526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &436471873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436471872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'My friend gifted me this cube. So many months later and I still can''t
+    solve it on my own. '
 --- !u!1001 &438353757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7798,6 +7870,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 327900445668598029, guid: 33a8c28b4f33d61478a68178b96b46b8, type: 3}
   m_PrefabInstance: {fileID: 464153617}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &466091204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3007098647601887080, guid: 0d11b5c3f89d6964382d808d2a82e21c, type: 3}
+  m_PrefabInstance: {fileID: 962359701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &466091205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466091204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: I just love this sofa. It's so comfortable. He only know how many TV show
+    I've watched on it.
 --- !u!1001 &466617858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7903,7 +7994,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1923736046}
-  - {fileID: 508330996}
+  - {fileID: 1910296128}
   m_Father: {fileID: 2139136878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8173,7 +8264,7 @@ GameObject:
   - component: {fileID: 508330998}
   - component: {fileID: 508330997}
   m_Layer: 5
-  m_Name: DialogBox
+  m_Name: DialogBoxImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8186,13 +8277,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508330995}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 336631959}
-  m_Father: {fileID: 468975422}
-  m_RootOrder: 1
+  m_Father: {fileID: 1910296128}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -9048,6 +9139,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5057849357938845739, guid: bc79b4c0d4a580144aeb0f6d1051aa31, type: 3}
   m_PrefabInstance: {fileID: 550447005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &553882358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897691151233550722, guid: e4683df5608902e4faca9b59ed3fcf64, type: 3}
+  m_PrefabInstance: {fileID: 1870158601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &553882359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553882358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: At this point, my bed should be a water bed. I've cried so much on that
+    thing...
 --- !u!1001 &558237546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12309,6 +12419,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7323869547395927832, guid: 0218401f715ead44b9f5f40f40281f79, type: 3}
   m_PrefabInstance: {fileID: 304700629}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &743766268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4111823549340944168, guid: a7581c422d68c894b8e1f79d4a93ec06, type: 3}
+  m_PrefabInstance: {fileID: 1634593942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &743766269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743766268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'My botany book. I''m impressed how well preserved still is. My nose has
+    been around those pages for as long as I can remember. '
 --- !u!1001 &756626739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12383,6 +12512,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4083468789508616254, guid: 64f1acdb4f4fbae47a269e557f19441e, type: 3}
   m_PrefabInstance: {fileID: 756626739}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &764092791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5833242065726298115, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+  m_PrefabInstance: {fileID: 1544329163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &764092792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764092791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'I love this family photo. It''s probally the last time will look this
+    happy together. '
 --- !u!1001 &765132593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13187,6 +13335,24 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Inverted: 0
+--- !u!1 &809845167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 913017437360676443, guid: 15de758b0f55e564084c9b82f65cee84, type: 3}
+  m_PrefabInstance: {fileID: 2021309656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &809845168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809845167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: Althought I love out tub, nothing like the feeling of hot running water.
 --- !u!1001 &813734038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16126,6 +16292,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2878471133913975704, guid: 3e8e8dd14748f4a4994697224b9dc1e4, type: 3}
   m_PrefabInstance: {fileID: 1023757410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1025001746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039990345687983704, guid: 518854b6fb79cf7489b4984e4deb56e0, type: 3}
+  m_PrefabInstance: {fileID: 2085063955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1025001747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025001746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: My mom loved to watch herslef in that mirror. I don't like it since I can
+    see myslef at once.
 --- !u!1 &1038684526
 GameObject:
   m_ObjectHideFlags: 0
@@ -17393,6 +17578,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2471821993115449550, guid: 69bab43b8cb94154396784450d48f242, type: 3}
   m_PrefabInstance: {fileID: 522145314}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1125952702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1213239533679310037, guid: 183306c85a8b83f4abbab704f8e8983a, type: 3}
+  m_PrefabInstance: {fileID: 1380858096}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125952703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125952702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'The old notebook of my dad. He is so well organized. '
 --- !u!1001 &1128810644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17734,6 +17937,24 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Inverted: 1
+--- !u!1 &1155485516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4130047990820419419, guid: 6faa42109f3b39f4d980359124c3cb3a, type: 3}
+  m_PrefabInstance: {fileID: 355053275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1155485517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155485516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: This TV has been around my house for as long as I can remember.
 --- !u!1001 &1161462190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18616,6 +18837,25 @@ Transform:
   m_Father: {fileID: 360444303}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1248916983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5371350835069887752, guid: e03afd34682611d4bb88642613800f3d, type: 3}
+  m_PrefabInstance: {fileID: 823212176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1248916984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248916983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: I'm impressed this washing machine still works. So many years and so many
+    washing cycles.
 --- !u!1001 &1250828129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18785,6 +19025,25 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Inverted: 1
+--- !u!1 &1263059585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5527433222530436506, guid: 6019764bf5bc92a4c8db673174f7597f, type: 3}
+  m_PrefabInstance: {fileID: 26446430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1263059586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263059585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: I love how comfortable my parent's bed is. I just still can't bare that
+    they will no longer share it. Actually I don't think I could...
 --- !u!1001 &1264642663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19743,6 +20002,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8806083182059073529, guid: 5febecd3764126d4d98fde851e0b4e45, type: 3}
   m_PrefabInstance: {fileID: 1313043493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1315678581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3381483483517175452, guid: db2dcde823a1cae49ae90c5e5c7ffa47, type: 3}
+  m_PrefabInstance: {fileID: 1977164024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1315678582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315678581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'My mom birthday was yesterday. This is the last slice for eveyone. '
 --- !u!1001 &1317575613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22599,6 +22876,24 @@ MonoBehaviour:
   OnUse:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1480874101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2751938607480727681, guid: 8e190efad590aee4d9dc6b0075f8a6c4, type: 3}
+  m_PrefabInstance: {fileID: 93358126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1480874102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480874101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: I don't want to cut myself. I should leave this here.
 --- !u!1001 &1483376609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23469,6 +23764,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2130234204341834370, guid: 7dcf608f1c1348443b81d8440de96d0a, type: 3}
   m_PrefabInstance: {fileID: 1522081946}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1522954535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1213239533679310037, guid: 183306c85a8b83f4abbab704f8e8983a, type: 3}
+  m_PrefabInstance: {fileID: 520942147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1522954536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522954535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'My diary. If someone wants to know me, this would be the perfect place
+    to start.  I''ve finally found it, so it''s seems it''s a good place to start
+    the story. Let''s go. '
 --- !u!1001 &1524560662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24790,6 +25105,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 164751674279023323, guid: 4a4a5e3a907632e4a96636cfbb2c9c8b, type: 3}
   m_PrefabInstance: {fileID: 1594710762}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1596705339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1445200731879326104, guid: 386f27937ef02ae4f90d0a138eb53743, type: 3}
+  m_PrefabInstance: {fileID: 1793838349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1596705340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596705339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: My dad always starts his morning with a coffee from the nearby store.
 --- !u!1 &1604107845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3596067029139817617, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
@@ -27059,6 +27392,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e34cf7537839fd4f9622656726ca5c6, type: 3}
+--- !u!1 &1733192972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4083468789508320286, guid: 64f1acdb4f4fbae47a269e557f19441e, type: 3}
+  m_PrefabInstance: {fileID: 1483376609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1733192973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733192972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: I've had this toy since I was a little kid. Still play with it once in
+    a while.
 --- !u!4 &1734168930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1571461385857385190, guid: 5e34cf7537839fd4f9622656726ca5c6, type: 3}
@@ -28905,6 +29257,24 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Inverted: 0
+--- !u!1 &1875925359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8400026386051238515, guid: 05976da1c7e2c744994a6574f1a7c686, type: 3}
+  m_PrefabInstance: {fileID: 1804026097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1875925360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875925359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'I''m sure I look pretty today, I just don''t feel like it. '
 --- !u!1001 &1878330709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29209,6 +29579,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 362271778947999306, guid: fcee60bf92be97f45bcd757fe68c58e9, type: 3}
   m_PrefabInstance: {fileID: 1897585916}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1910296127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910296128}
+  m_Layer: 5
+  m_Name: DialogManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1910296128
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910296127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 508330996}
+  m_Father: {fileID: 468975422}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!1001 &1913826707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32078,6 +32484,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063932630}
   m_Mesh: {fileID: 4300000, guid: ad2cc0668ba216d4cb6ab26c3e4d7647, type: 3}
+--- !u!1 &2067691552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4966731299109542133, guid: 4356324233a18dd46af69751c0460ffe, type: 3}
+  m_PrefabInstance: {fileID: 896492037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2067691553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067691552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'We should change our toothbrush by now. They are on the verge of disgusting. '
 --- !u!1001 &2074250513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32332,6 +32756,24 @@ Transform:
   m_Father: {fileID: 360444303}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2104760827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1794585192263579854, guid: 6524145838ab28c4a99d218429dc3403, type: 3}
+  m_PrefabInstance: {fileID: 2006262662}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2104760828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104760827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'Stake is our favorite food. '
 --- !u!1001 &2106533422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32670,6 +33112,14 @@ PrefabInstance:
       propertyPath: field of view
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 9141998171223128240, guid: b7ccc4052427b6b4ea891bb630e20115, type: 3}
+      propertyPath: textIterator
+      value: 
+      objectReference: {fileID: 336631958}
+    - target: {fileID: 9141998171223128240, guid: b7ccc4052427b6b4ea891bb630e20115, type: 3}
+      propertyPath: DialogManager
+      value: 
+      objectReference: {fileID: 1910296127}
     - target: {fileID: 9141998171223128244, guid: b7ccc4052427b6b4ea891bb630e20115, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -32926,6 +33376,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2140239671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3627632174947603720, guid: f7d4b943c25cc374b8bdeb428edda149, type: 3}
+  m_PrefabInstance: {fileID: 919793586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2140239672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140239671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: 'Such an old computer, and still going. '
 --- !u!1001 &2146516654
 PrefabInstance:
   m_ObjectHideFlags: 0

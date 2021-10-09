@@ -10,8 +10,10 @@ namespace com.amerike.Fernando
 		public delegate void HandlerPlayerCam (PlayerCamera sender);
 		public event HandlerPlayerCam OnUse;
 		public event HandlerPlayerCam OnGrab;
+		public event HandlerPlayerCam onProp;
 
 		[HideInInspector] public GameObject GrabbedObj;
+		[HideInInspector] public GameObject PropWithDialog;
 
 		Mouse mouse;
 		Camera myCamera;
@@ -130,6 +132,15 @@ namespace com.amerike.Fernando
 						player.gameObject.GetComponent<PlayerMovement>().Active = false;
 					}
 				}
+				PropDialog propDialog = hit.transform.GetComponent<PropDialog>();
+				if(propDialog != null)
+                {
+					PropWithDialog = propDialog.gameObject;
+					if (onProp != null)
+                    {
+						onProp(this);
+					}									
+                }
 			}
 		}
 
