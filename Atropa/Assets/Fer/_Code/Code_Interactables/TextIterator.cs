@@ -23,6 +23,7 @@ namespace com.amerike.Fernando
 			}
 			Show();
 		}
+
 		void Update()
 		{
 			raton = Mouse.current;

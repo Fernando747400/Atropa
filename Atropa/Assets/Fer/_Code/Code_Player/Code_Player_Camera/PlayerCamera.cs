@@ -97,12 +97,12 @@ namespace com.amerike.Fernando
 				player.Rotate(Vector3.up * rotationX * -1);
 
 
-			if (mouse.leftButton.isPressed)
+			if (mouse.leftButton.wasPressedThisFrame)
 			{
 				GetViewInfo();
 			}
 
-			if (mouse.rightButton.isPressed)
+			if (mouse.rightButton.wasPressedThisFrame)
             {
 				leaveObject();
             }
@@ -115,7 +115,6 @@ namespace com.amerike.Fernando
 			Ray myRay = myCamera.ScreenPointToRay(coordinate);
 			if (Physics.Raycast(myRay, out hit, distanceHit))
 			{
-				//print (hit.transform.name + "" + hit.point);
 				IUsable usable = hit.transform.GetComponent<IUsable>();
 				if (usable != null)
 				{
