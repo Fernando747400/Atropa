@@ -46,11 +46,10 @@ namespace com.amerike.Fernando
 		}
 
 
-		void FixedUpdate()
+		void Update()
 		{
 			if (active)
 			{
-
 				if (mouse != null && myCamera != null) CheckMouseInput();
 			}
 		}
@@ -67,6 +66,7 @@ namespace com.amerike.Fernando
 			active = true;
 			Cursor.lockState = CursorLockMode.Locked;
 			Cursor.visible = false;
+			Application.targetFrameRate = 30;
 		}
 
 		void CheckMouseInput()
