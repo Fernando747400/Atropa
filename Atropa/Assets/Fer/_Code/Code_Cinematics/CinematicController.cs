@@ -26,13 +26,15 @@ public class CinematicController : MonoBehaviour
         initialExplosiveHouse.SetActive(true);
         finalExplosiveHouse.SetActive(true);
         initialHouse.SetActive(false);
+        yield return new WaitForSeconds(1);
         CinematicEventSystem.current.explodeScene();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         initialExplosiveHouse.SetActive(false);
         CinematicEventSystem.current.rollbackScene();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         finalHouse.SetActive(true);
         finalExplosiveHouse.SetActive(false);
+        yield return new WaitForSeconds(1);
         startInputs();
     }
 

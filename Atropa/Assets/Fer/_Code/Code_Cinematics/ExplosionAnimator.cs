@@ -7,7 +7,7 @@ public class ExplosionAnimator : MonoBehaviour
     public GameObject pivotPoint;
     private Vector3 position = new Vector3();
     private Vector3 initialPosition = new Vector3();
-    private float explosionForce = 500f;
+    private float explosionForce = 10f;
     private float timeToExplode = 3f;
     private float distanceToPivot;
     void Start()
