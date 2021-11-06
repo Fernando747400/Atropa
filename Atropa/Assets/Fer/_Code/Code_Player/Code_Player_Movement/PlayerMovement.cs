@@ -56,7 +56,7 @@ namespace com.amerike.Fernando
 		{
 			Prepare();
 		}
-		void FixedUpdate()
+		void Update()
 		{
 			if (active)
 			{

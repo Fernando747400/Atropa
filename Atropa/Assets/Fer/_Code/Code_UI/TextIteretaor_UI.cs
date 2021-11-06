@@ -9,6 +9,8 @@ namespace com.amerike.Fernando
 {
     public class TextIteretaor_UI : MonoBehaviour
     {
+		public PlayerMovement playerScript;
+		public PlayerCamera cameraScript;
 		public GameObject DialogCanvas;
 		public float textSpeed = 0.5f;
 		TextMeshProUGUI textMesh;
@@ -46,6 +48,8 @@ namespace com.amerike.Fernando
 
 			if (raton.rightButton.wasPressedThisFrame && finished == true)
             {
+				playerScript.Active = true;
+				cameraScript.Active = true;
 				DialogCanvas.SetActive(false);
             }
 		}
@@ -60,10 +64,13 @@ namespace com.amerike.Fernando
 		}
 		public void Show()
 		{
+			textMesh.text = "";
 			if (corIterateText != null)
 			{
 				StopCoroutine(corIterateText);
 			}
+			playerScript.Active = false;
+			cameraScript.Active = false;
 			finished = false;
 			corIterateText = StartCoroutine(CorIterateText(myText));
 		}
