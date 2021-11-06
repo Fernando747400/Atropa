@@ -1032,6 +1032,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4839833663176848353, guid: 31d5f215c1cebc2428f24e71c1b13194, type: 3}
   m_PrefabInstance: {fileID: 51852167}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &51852169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4839833663177076673, guid: 31d5f215c1cebc2428f24e71c1b13194, type: 3}
+  m_PrefabInstance: {fileID: 51852167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &51852170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51852169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: Sometimes I feel that the plants are the only thing that bring me a little
+    bit of happiness in my life, but the loneliness it's getting worse.
 --- !u!1001 &56982006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2855,7 +2874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4258445915251386594, guid: 06d98bc93ae0c8543b58cc14e7161a43, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 4258445915251386594, guid: 06d98bc93ae0c8543b58cc14e7161a43, type: 3}
       propertyPath: m_LocalScale.x
@@ -3352,7 +3371,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5889018171612105916, guid: 2832cb4a766bc7341855f6b1a226e14b, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5889018171612105916, guid: 2832cb4a766bc7341855f6b1a226e14b, type: 3}
       propertyPath: m_LocalScale.x
@@ -4670,6 +4689,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1560495126617978138, guid: 1177e95fb4e96c743812f4d50b17868a, type: 3}
   m_PrefabInstance: {fileID: 260086673}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &260086675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1560495126618138938, guid: 1177e95fb4e96c743812f4d50b17868a, type: 3}
+  m_PrefabInstance: {fileID: 260086673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &260086676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260086675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: I miss the pastries my mom used to make when I was little, she always seemed
+    happy when we were baking
 --- !u!1 &260558609 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3893693795507899108, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
@@ -4785,7 +4823,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: He also loves the donuts from that coffee shop.
+  Dialog: 'I still love the blueberry donuts, atleast my dad wasn''t wrong about
+    that. '
 --- !u!114 &273313472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4817,8 +4856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: 'Always loved the smell of our shop. My mom used to spend extra just on
-    this soap. '
+  Dialog: I always remeber my mom with this soap. She has used the same one for so
+    long. Smells like... home.
 --- !u!114 &277329777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7912,8 +7951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: 'My friend gifted me this cube. So many months later and I still can''t
-    solve it on my own. '
+  Dialog: 'Joy gifted me this cube. So many months later and I still can''t solve
+    it on my own. '
 --- !u!114 &436471874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8266,8 +8305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: I just love this sofa. It's so comfortable. He only know how many TV show
-    I've watched on it.
+  Dialog: My dad was very proud for getting this sofa as a reward from a promotion
+    at his job
 --- !u!114 &466091206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10072,7 +10111,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 272419887881813089, guid: 380348a977c2f9440824810f62f1261e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 272419887881813089, guid: 380348a977c2f9440824810f62f1261e, type: 3}
       propertyPath: m_LocalScale.x
@@ -10458,6 +10497,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2573303203402119295, guid: efc5c53369265b7458ed2a534f7cf2af, type: 3}
   m_PrefabInstance: {fileID: 594274725}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &594274727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2573303203402605663, guid: efc5c53369265b7458ed2a534f7cf2af, type: 3}
+  m_PrefabInstance: {fileID: 594274725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &594274728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594274727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: Sometimes I feel that the plants are the only thing that bring me a little
+    bit of happiness in my life, but the loneliness it's getting worse.
 --- !u!1001 &594493639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10549,7 +10607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2795557318299034532, guid: 9dc473f7847b07340b1803327315af84, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2795557318299034532, guid: 9dc473f7847b07340b1803327315af84, type: 3}
       propertyPath: m_LocalScale.x
@@ -11503,7 +11561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5923670615402198364, guid: 56d7c1abcb4e1e340ab8d485b2c25dfd, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 5923670615402198364, guid: 56d7c1abcb4e1e340ab8d485b2c25dfd, type: 3}
       propertyPath: m_LocalScale.x
@@ -11564,6 +11622,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5923670615402198364, guid: 56d7c1abcb4e1e340ab8d485b2c25dfd, type: 3}
   m_PrefabInstance: {fileID: 652529532}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &652529534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5923670615401703804, guid: 56d7c1abcb4e1e340ab8d485b2c25dfd, type: 3}
+  m_PrefabInstance: {fileID: 652529532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &652529535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652529534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: This are science posters that inspired me to become a botanist like my
+    parents
 --- !u!1001 &657357730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12405,7 +12482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8208067712057138993, guid: afcc468a7ec87ca40bb7b3bdbc4b87ce, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8208067712057138993, guid: afcc468a7ec87ca40bb7b3bdbc4b87ce, type: 3}
       propertyPath: m_LocalScale.x
@@ -12466,6 +12543,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8208067712057138993, guid: afcc468a7ec87ca40bb7b3bdbc4b87ce, type: 3}
   m_PrefabInstance: {fileID: 697807391}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &697807393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8208067712057033489, guid: afcc468a7ec87ca40bb7b3bdbc4b87ce, type: 3}
+  m_PrefabInstance: {fileID: 697807391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &697807394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697807393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: This are science posters that inspired me to become a botanist like my
+    parents
 --- !u!1 &704533710 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6196416091334693452, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
@@ -12711,8 +12807,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: 'My botany book. I''m impressed how well preserved still is. My nose has
-    been around those pages for as long as I can remember. '
+  Dialog: My botany book. This was a gift my parents gave me in 3th grade, it was
+    the most useful book I have ever received
 --- !u!114 &743766270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12997,8 +13093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: 'I love this family photo. It''s probally the last time will look this
-    happy together. '
+  Dialog: I love this family photo. It's was the last time my parents were happy
+    to be together.
 --- !u!114 &764092793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13103,7 +13199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7322185680268120903, guid: a4da180b378de644e89121b2c26e0359, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 7322185680268120903, guid: a4da180b378de644e89121b2c26e0359, type: 3}
       propertyPath: m_LocalScale.x
@@ -13922,7 +14018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: Althought I love out tub, nothing like the feeling of hot running water.
+  Dialog: Althought I love our hot  tub, nothing like the feeling of hot running
+    water.
 --- !u!114 &809845169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17448,8 +17545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: My mom loved to watch herslef in that mirror. I don't like it since I can
-    see myslef at once.
+  Dialog: I would always watch my mom getting ready every morning, I always thought
+    it was a fascinating process to watch but she doesn't do it anymore
 --- !u!114 &1025001748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18156,99 +18253,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 010d43eb21696d84692cb87cc2d62d14, type: 3}
---- !u!1 &1068961095
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1068961096}
-  - component: {fileID: 1068961097}
-  m_Layer: 0
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1068961096
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068961095}
-  m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1.3888888, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1686924562}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!108 &1068961097
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1068961095}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.93404585, b: 0.35506406, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 110
-  m_InnerSpotAngle: 4
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 1
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1001 &1078142750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18516,7 +18520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5059929299894682504, guid: 2131c85c878a65244ad8dd24a806ec6e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.584
+      value: 0.512
       objectReference: {fileID: 0}
     - target: {fileID: 5059929299894682504, guid: 2131c85c878a65244ad8dd24a806ec6e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18825,19 +18829,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1213239533679310037, guid: 183306c85a8b83f4abbab704f8e8983a, type: 3}
   m_PrefabInstance: {fileID: 1380858096}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1125952703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125952702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dialog: 'The old notebook of my dad. He is so well organized. '
 --- !u!114 &1125952704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19246,7 +19237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: This TV has been around my house for as long as I can remember.
+  Dialog: When my dad was around he would spend hours watching his shows and my mom
+    was always yelling at him for not helping around the house
 --- !u!114 &1155485518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20301,20 +20293,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5371350835069887752, guid: e03afd34682611d4bb88642613800f3d, type: 3}
   m_PrefabInstance: {fileID: 823212176}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1248916984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248916983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dialog: I'm impressed this washing machine still works. So many years and so many
-    washing cycles.
 --- !u!114 &1248916985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20533,8 +20511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: I love how comfortable my parent's bed is. I just still can't bare that
-    they will no longer share it. Actually I don't think I could...
+  Dialog: Even though my dad isn't living here anymore she still sleeps on her side
+    of the bed
 --- !u!114 &1263059587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21565,7 +21543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: 'My mom birthday was yesterday. This is the last slice for eveyone. '
+  Dialog: Yesterday was my mom's birthday and I think it was too much for only two
+    people
 --- !u!114 &1315678583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21680,6 +21659,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1995062049}
   - {fileID: 1870158602}
   - {fileID: 1659849613}
   - {fileID: 576549324}
@@ -21706,7 +21686,6 @@ Transform:
   - {fileID: 33132941}
   - {fileID: 1163165527}
   - {fileID: 520942148}
-  - {fileID: 1686924562}
   - {fileID: 165081733}
   - {fileID: 767766486}
   - {fileID: 1585894533}
@@ -21715,6 +21694,7 @@ Transform:
   - {fileID: 1806568686}
   - {fileID: 697807392}
   - {fileID: 187217764}
+  - {fileID: 1995284941}
   m_Father: {fileID: 360444303}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21870,99 +21850,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 844515508297376426, guid: d68c1fe33c4457942ba804f9f27e7a47, type: 3}
   m_PrefabInstance: {fileID: 1320387848}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1322366254
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1322366255}
-  - component: {fileID: 1322366256}
-  m_Layer: 0
-  m_Name: Spot Light (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1322366255
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322366254}
-  m_LocalRotation: {x: 0.7071069, y: -0, z: -0, w: -0.7071067}
-  m_LocalPosition: {x: 0, y: 1.3888888, z: -0.00000013245477}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1686924562}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
---- !u!108 &1322366256
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322366254}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.93404585, b: 0.35506406, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 40
-  m_InnerSpotAngle: 4
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 1
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1001 &1323969477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23082,7 +22969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3331326080296375254, guid: a3a862a8a79e6b14a8a73e934ac13793, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3331326080296375254, guid: a3a862a8a79e6b14a8a73e934ac13793, type: 3}
       propertyPath: m_LocalScale.x
@@ -23143,6 +23030,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3331326080296375254, guid: a3a862a8a79e6b14a8a73e934ac13793, type: 3}
   m_PrefabInstance: {fileID: 1354964423}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1354964425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3331326080295948278, guid: a3a862a8a79e6b14a8a73e934ac13793, type: 3}
+  m_PrefabInstance: {fileID: 1354964423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1354964426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354964425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: This are science posters that inspired me to become a botanist like my
+    parents
 --- !u!4 &1359954814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130234204341834370, guid: 7dcf608f1c1348443b81d8440de96d0a, type: 3}
@@ -25399,7 +25305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6726415862557276911, guid: 530ac2fccd8937248811defa3c2390d7, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6726415862557276911, guid: 530ac2fccd8937248811defa3c2390d7, type: 3}
       propertyPath: m_LocalScale.x
@@ -26078,8 +25984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: 'My diary. If someone wants to know me, this would be the perfect place
-    to start.  I''ve finally found it, so it''s seems it''s a good place to start
-    the story. Let''s go. '
+    to start.  I''ve finally found it, we can continue the story now. '
 --- !u!114 &1522954537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26879,7 +26784,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1534560902712492242, guid: b5e044afc18c26740abf07b4433951a3, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1534560902712492242, guid: b5e044afc18c26740abf07b4433951a3, type: 3}
       propertyPath: m_LocalScale.x
@@ -27198,7 +27103,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: My dad always starts his morning with a coffee from the nearby store.
+  Dialog: Lately I don't feel like cooking breakfast so instead I get something quick
+    to eat on my way to school
 --- !u!114 &1596705341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28277,7 +28183,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5112808599480029338, guid: 2aad6a99d41a856499ada30bb80d4ad7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5112808599480029338, guid: 2aad6a99d41a856499ada30bb80d4ad7, type: 3}
       propertyPath: m_LocalScale.x
@@ -28886,80 +28792,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1605611661356140233, guid: d6e454b56901ea4488c8960663505116, type: 3}
   m_PrefabInstance: {fileID: 1685876512}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1686924561
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1318592968}
-    m_Modifications:
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_RootOrder
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.554111
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.5812023
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.459
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446088109260437507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-      propertyPath: m_Name
-      value: Lamp_01
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
---- !u!4 &1686924562 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8446088109260137507, guid: cd2732c0a3f49584db67f1ca8f164102, type: 3}
-  m_PrefabInstance: {fileID: 1686924561}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1693052130
 PrefabInstance:
@@ -30695,7 +30527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1834683387409743323, guid: ee9fdf0fa0a0e21478867fc42c8b407e, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 1834683387409743323, guid: ee9fdf0fa0a0e21478867fc42c8b407e, type: 3}
       propertyPath: m_LocalScale.x
@@ -30756,6 +30588,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1834683387409743323, guid: ee9fdf0fa0a0e21478867fc42c8b407e, type: 3}
   m_PrefabInstance: {fileID: 1806568685}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1806568687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1834683387409441275, guid: ee9fdf0fa0a0e21478867fc42c8b407e, type: 3}
+  m_PrefabInstance: {fileID: 1806568685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1806568688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806568687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: This are science posters that inspired me to become a botanist like my
+    parents
 --- !u!1 &1808257224
 GameObject:
   m_ObjectHideFlags: 0
@@ -31414,7 +31265,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5897691151233324450, guid: e4683df5608902e4faca9b59ed3fcf64, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5897691151233324450, guid: e4683df5608902e4faca9b59ed3fcf64, type: 3}
       propertyPath: m_LocalScale.x
@@ -31438,7 +31289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5897691151233324450, guid: e4683df5608902e4faca9b59ed3fcf64, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.576
+      value: 0.499
       objectReference: {fileID: 0}
     - target: {fileID: 5897691151233324450, guid: e4683df5608902e4faca9b59ed3fcf64, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33475,6 +33326,235 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5febecd3764126d4d98fde851e0b4e45, type: 3}
+--- !u!1001 &1995062048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1318592968}
+    m_Modifications:
+    - target: {fileID: 5833242065726298115, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_Name
+      value: PhotoFrame (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726298115, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726298115, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.421111
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.145
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3551111
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3826852
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.92387885
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+--- !u!4 &1995062049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5833242065726391331, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+  m_PrefabInstance: {fileID: 1995062048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1995062050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5833242065726298115, guid: 5566f40006009174baf91ddd4a5289b8, type: 3}
+  m_PrefabInstance: {fileID: 1995062048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1995062051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995062050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
+--- !u!114 &1995062052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995062050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialog: This was the photo Joy and I took the day she want to LA, I can barely
+    see it without crying till I fall asleep.
+--- !u!1001 &1995284940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1318592968}
+    m_Modifications:
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.6152945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5813801
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.707106
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677960466081765012, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+      propertyPath: m_Name
+      value: InteractiveFurniture_03 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+--- !u!4 &1995284941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6648101201434783198, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+  m_PrefabInstance: {fileID: 1995284940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1995284942 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6196416091334693452, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+  m_PrefabInstance: {fileID: 1995284940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1995284943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7085162324739380476, guid: bc9080a23bccd8e4887f6a1ff1b1be24, type: 3}
+  m_PrefabInstance: {fileID: 1995284940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1995284944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995284942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3e64e02a01f2b4eb2654d3d82346e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnUse:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1995284945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995284943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3e64e02a01f2b4eb2654d3d82346e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnUse:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &2001745595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34933,7 +35013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: 'We should change our toothbrush by now. They are on the verge of disgusting. '
+  Dialog: 'The bathroom feels emptier since my dad took all of his stuff '
 --- !u!114 &2067691554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35141,19 +35221,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1794585192263579854, guid: 6524145838ab28c4a99d218429dc3403, type: 3}
   m_PrefabInstance: {fileID: 2006262662}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2104760828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104760827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dialog: 'Stake is our favorite food. '
 --- !u!114 &2104760829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35333,7 +35400,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 589296751684369362, guid: 041863caed3261e44931834c81ecd97c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 589296751684369362, guid: 041863caed3261e44931834c81ecd97c, type: 3}
       propertyPath: m_LocalScale.x
@@ -35821,7 +35888,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da60fe3474142f940bd42789229546d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Dialog: 'Such an old computer, and still going. '
+  Dialog: My dad will come for this later, he ws the only one to use it anyway. One
+    last chance to see him I guess.
 --- !u!114 &2140239673
 MonoBehaviour:
   m_ObjectHideFlags: 0
