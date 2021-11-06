@@ -22,32 +22,18 @@ public class CinematicController : MonoBehaviour
     {
         print("Entered the coroutine");
         stopInputs();
-        print("stopedinputs");
         rotatePlayer();
-        yield return new WaitForSeconds(1);
-        print("waited");
         initialExplosiveHouse.SetActive(true);
-        print("explosive house tunred on");
-        initialHouse.SetActive(false);
-        print("initial house turned off");
-        CinematicEventSystem.current.explodeScene();
-        print("Explode house");
-        yield return new WaitForSeconds(5);
-        print("Waited 5 secs");
         finalExplosiveHouse.SetActive(true);
-        print("Explosive house turned on");
+        initialHouse.SetActive(false);
+        CinematicEventSystem.current.explodeScene();
+        yield return new WaitForSeconds(3);
+        initialExplosiveHouse.SetActive(false);
         CinematicEventSystem.current.rollbackScene();
-        print("unexploded house");
-        yield return new WaitForSeconds(5);
-        print("waited 5 sec again");
+        yield return new WaitForSeconds(3);
         finalHouse.SetActive(true);
-        print("final house turned on");
         finalExplosiveHouse.SetActive(false);
-        print("ecploded house turned off");
-        yield return new WaitForSeconds(1);
-        print("waited final 1 sec");
         startInputs();
-        print("turned on inputs");
     }
 
     public void rotatePlayer()
