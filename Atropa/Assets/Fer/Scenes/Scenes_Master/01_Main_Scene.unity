@@ -285,6 +285,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 314779998321783977, guid: 6bb0ce06f9c3aca4a9c81cfa2bc4fbc2, type: 3}
   m_PrefabInstance: {fileID: 1566737457}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &14084254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14084253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &14084258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,6 +705,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1571461385857385190, guid: 5e34cf7537839fd4f9622656726ca5c6, type: 3}
   m_PrefabInstance: {fileID: 1273381055}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &42242294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 314779998321783977, guid: 6bb0ce06f9c3aca4a9c81cfa2bc4fbc2, type: 3}
+  m_PrefabInstance: {fileID: 1435852060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &42242295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42242294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &45679797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1233,6 +1266,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2172788472976664777, guid: ef53681550b8c9e42b226492bc6ae7eb, type: 3}
   m_PrefabInstance: {fileID: 360246178}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &76896967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76896966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &76896971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1864,6 +1911,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 258137859812641922, guid: d1ab15203f6ff044ca9f25076061931a, type: 3}
   m_PrefabInstance: {fileID: 1161462190}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &121126316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121126315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &121126320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1885,6 +1946,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 314779998321783977, guid: 6bb0ce06f9c3aca4a9c81cfa2bc4fbc2, type: 3}
   m_PrefabInstance: {fileID: 30131289}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &125578370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125578369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &125578371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3111,6 +3186,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dcf608f1c1348443b81d8440de96d0a, type: 3}
+--- !u!1 &180932797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 180932798}
+  - component: {fileID: 180932800}
+  - component: {fileID: 180932799}
+  m_Layer: 5
+  m_Name: InteractIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &180932798
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180932797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 1766328730}
+  m_Father: {fileID: 2010029663}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -50, y: -450}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &180932799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180932797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 480f35a9661e37840ac094fe0e4908b5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &180932800
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180932797}
+  m_CullTransparentMesh: 1
 --- !u!1001 &184155961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4635,6 +4786,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: He also loves the donuts from that coffee shop.
+--- !u!114 &273313472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273313470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1 &277329775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1034541269375524727, guid: a2631485b8201df46b6e41596fd477a1, type: 3}
@@ -4654,6 +4819,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: 'Always loved the smell of our shop. My mom used to spend extra just on
     this soap. '
+--- !u!114 &277329777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277329775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1 &279916150
 GameObject:
   m_ObjectHideFlags: 0
@@ -5485,6 +5664,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2172788472976664777, guid: ef53681550b8c9e42b226492bc6ae7eb, type: 3}
   m_PrefabInstance: {fileID: 201313204}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &329598200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329598199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &329598204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5584,6 +5777,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 314779998321783977, guid: 6bb0ce06f9c3aca4a9c81cfa2bc4fbc2, type: 3}
   m_PrefabInstance: {fileID: 1915664017}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &333808380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333808379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &333808384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6920,6 +7127,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4744503510949076271, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
   m_PrefabInstance: {fileID: 1662493228}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &383413219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383413218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &383413223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7693,6 +7914,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: 'My friend gifted me this cube. So many months later and I still can''t
     solve it on my own. '
+--- !u!114 &436471874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436471872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &438353757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8033,6 +8268,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: I just love this sofa. It's so comfortable. He only know how many TV show
     I've watched on it.
+--- !u!114 &466091206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466091204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &466617858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8143,6 +8392,7 @@ RectTransform:
   m_Children:
   - {fileID: 1923736046}
   - {fileID: 1910296128}
+  - {fileID: 2010029663}
   m_Father: {fileID: 2139136878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9171,6 +9421,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: At this point, my bed should be a water bed. I've cried so much on that
     thing...
+--- !u!114 &553882360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553882358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1 &556663859
 GameObject:
   m_ObjectHideFlags: 0
@@ -12449,6 +12713,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: 'My botany book. I''m impressed how well preserved still is. My nose has
     been around those pages for as long as I can remember. '
+--- !u!114 &743766270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743766268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1 &747644537
 GameObject:
   m_ObjectHideFlags: 0
@@ -12721,6 +12999,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: 'I love this family photo. It''s probally the last time will look this
     happy together. '
+--- !u!114 &764092793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764092791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &765132593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13583,6 +13875,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4744503510949076271, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
   m_PrefabInstance: {fileID: 804723631}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &807566728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807566727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &807566732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13617,6 +13923,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: Althought I love out tub, nothing like the feeling of hot running water.
+--- !u!114 &809845169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809845167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &813734038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13769,6 +14089,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 99727064822719357, guid: 9d47e73d2c7a52d4783e0ab0097b096c, type: 3}
   m_PrefabInstance: {fileID: 931028765}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &816869228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816869227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &816869232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14405,6 +14739,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4744503510949076271, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
   m_PrefabInstance: {fileID: 816922645}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &845553198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845553197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &845553202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16240,6 +16588,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6250343498025975669, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
   m_PrefabInstance: {fileID: 804723631}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &957925005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957925004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &957925009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17088,6 +17450,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: My mom loved to watch herslef in that mirror. I don't like it since I can
     see myslef at once.
+--- !u!114 &1025001748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025001746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1043166040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17318,6 +17694,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6285483229360151846, guid: d1ab15203f6ff044ca9f25076061931a, type: 3}
   m_PrefabInstance: {fileID: 1161462190}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1054856411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054856410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1054856415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17500,6 +17890,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7969829995360909599, guid: f271aca5ff5362b47afb20c27b9d20b9, type: 3}
   m_PrefabInstance: {fileID: 314750309}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1063408131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063408130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1063408135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18434,6 +18838,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: 'The old notebook of my dad. He is so well organized. '
+--- !u!114 &1125952704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125952702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1128810644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18653,6 +19071,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6250343498025975669, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
   m_PrefabInstance: {fileID: 1662493228}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1145542969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145542968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1145542973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18767,6 +19199,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6250343498025975669, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
   m_PrefabInstance: {fileID: 816922645}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1154837157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154837156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1154837161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18801,6 +19247,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: This TV has been around my house for as long as I can remember.
+--- !u!114 &1155485518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155485516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1161462190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19855,6 +20315,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: I'm impressed this washing machine still works. So many years and so many
     washing cycles.
+--- !u!114 &1248916985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248916983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1250828129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20012,6 +20486,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3698621783241239722, guid: e608c55d59b1b86468d1c2d3db650b75, type: 3}
   m_PrefabInstance: {fileID: 946491691}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1260968455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260968454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1260968459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20047,6 +20535,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: I love how comfortable my parent's bed is. I just still can't bare that
     they will no longer share it. Actually I don't think I could...
+--- !u!114 &1263059587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263059585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1264642663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21064,6 +21566,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: 'My mom birthday was yesterday. This is the last slice for eveyone. '
+--- !u!114 &1315678583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315678581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1317575613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22186,6 +22702,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2682421308107032837, guid: e608c55d59b1b86468d1c2d3db650b75, type: 3}
   m_PrefabInstance: {fileID: 1506495789}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1346102656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346102655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1346102660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23351,6 +23881,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7143198868716581858, guid: 9d47e73d2c7a52d4783e0ab0097b096c, type: 3}
   m_PrefabInstance: {fileID: 931028765}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1404211899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404211898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1404211903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23455,6 +23999,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3698621783241239722, guid: e608c55d59b1b86468d1c2d3db650b75, type: 3}
   m_PrefabInstance: {fileID: 1506495789}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1421280642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421280641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1421280646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23843,6 +24401,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4744503510949076271, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
   m_PrefabInstance: {fileID: 1361413657}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1440491345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440491344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1440491349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24582,6 +25154,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: I don't want to cut myself. I should leave this here.
+--- !u!114 &1480874103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480874101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1483376609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24669,6 +25255,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4855695671532828489, guid: 1177e95fb4e96c743812f4d50b17868a, type: 3}
   m_PrefabInstance: {fileID: 260086673}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1490420609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490420608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1490420613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24763,6 +25363,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4111823549340719880, guid: a7581c422d68c894b8e1f79d4a93ec06, type: 3}
   m_PrefabInstance: {fileID: 1491006955}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1492376210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 314779998321783977, guid: 6bb0ce06f9c3aca4a9c81cfa2bc4fbc2, type: 3}
+  m_PrefabInstance: {fileID: 1594295721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1492376211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492376210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1492532103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25030,6 +25649,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1649812252802333281, guid: 010d43eb21696d84692cb87cc2d62d14, type: 3}
   m_PrefabInstance: {fileID: 1068099506}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1512237879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512237878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1512237883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25447,6 +26080,20 @@ MonoBehaviour:
   Dialog: 'My diary. If someone wants to know me, this would be the perfect place
     to start.  I''ve finally found it, so it''s seems it''s a good place to start
     the story. Let''s go. '
+--- !u!114 &1522954537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522954535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1524560662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26552,6 +27199,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: My dad always starts his morning with a coffee from the nearby store.
+--- !u!114 &1596705341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596705339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1 &1604107845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3596067029139817617, guid: 0ebc4f62f2a26e54d9cef79f8891c5d8, type: 3}
@@ -28601,6 +29262,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialog: I've had this toy since I was a little kid. Still play with it once in
     a while.
+--- !u!114 &1733192974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733192972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!4 &1734168930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1571461385857385190, guid: 5e34cf7537839fd4f9622656726ca5c6, type: 3}
@@ -28939,11 +29614,118 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Inverted: 1
+--- !u!114 &1762629406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762629404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
+--- !u!1 &1766328729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1766328730}
+  - component: {fileID: 1766328732}
+  - component: {fileID: 1766328731}
+  m_Layer: 5
+  m_Name: InteractText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1766328730
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766328729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_Children: []
+  m_Father: {fileID: 180932798}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 160, y: 0}
+  m_SizeDelta: {x: 200, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1766328731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766328729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 300
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Interact
+--- !u!222 &1766328732
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766328729}
+  m_CullTransparentMesh: 1
 --- !u!1 &1767044055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2682421308107032837, guid: e608c55d59b1b86468d1c2d3db650b75, type: 3}
   m_PrefabInstance: {fileID: 946491691}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1767044056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767044055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1767044060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29367,6 +30149,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5259353158065905159, guid: 3802bb07f3da4ab43b8116774a8261c7, type: 3}
   m_PrefabInstance: {fileID: 1974883006}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1786323454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786323453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1786323458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30770,6 +31566,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1649812252802333281, guid: 010d43eb21696d84692cb87cc2d62d14, type: 3}
   m_PrefabInstance: {fileID: 184155961}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1873197810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873197809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &1873197814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30804,6 +31614,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: 'I''m sure I look pretty today, I just don''t feel like it. '
+--- !u!114 &1875925361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875925359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &1878330709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33037,6 +33861,106 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5989284792396077006, guid: 2f9f23c6b5bec6d419e9346427bb16de, type: 3}
   m_PrefabInstance: {fileID: 2009886799}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2010029662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2010029663}
+  - component: {fileID: 2010029666}
+  - component: {fileID: 2010029665}
+  - component: {fileID: 2010029664}
+  m_Layer: 5
+  m_Name: InteractPrompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2010029663
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010029662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 180932798}
+  m_Father: {fileID: 468975422}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2010029664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010029662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2010029665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010029662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &2010029666
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010029662}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &2010186213
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33266,6 +34190,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 314779998321783977, guid: 6bb0ce06f9c3aca4a9c81cfa2bc4fbc2, type: 3}
   m_PrefabInstance: {fileID: 1446861796}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2021683110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021683109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!114 &2021683114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33996,6 +34934,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: 'We should change our toothbrush by now. They are on the verge of disgusting. '
+--- !u!114 &2067691554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067691552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &2084634947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34202,6 +35154,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: 'Stake is our favorite food. '
+--- !u!114 &2104760829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104760827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &2106533422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34856,6 +35822,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialog: 'Such an old computer, and still going. '
+--- !u!114 &2140239673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140239671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609b2e8b645a3d24e91563684e755b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractCanvas: {fileID: 2010029666}
+  interactionText: {fileID: 1766328731}
 --- !u!1001 &2146516654
 PrefabInstance:
   m_ObjectHideFlags: 0

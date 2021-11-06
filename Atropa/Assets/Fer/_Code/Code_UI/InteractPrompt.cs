@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class InteractPrompt : MonoBehaviour
 {
     public Canvas InteractCanvas;
-    public Component typeOfScript;
     public Text interactionText;
     private string myText = "";
 
@@ -21,7 +20,7 @@ public class InteractPrompt : MonoBehaviour
         }
     }
 
-    public void OnMouseEnter()
+    public void OnMouseOver()
     {
         InteractCanvas.gameObject.SetActive(true);
         interactionText.text = myText;
