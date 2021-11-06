@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class TestEventKey : MonoBehaviour
 {
     Keyboard keyBoard;
+    public GameObject pivotPoint;
     public void Start()
     {        
         keyBoard = Keyboard.current;
@@ -16,5 +17,7 @@ public class TestEventKey : MonoBehaviour
         {
             TestEventManager.current.explodeScene();
         }
+
+        pivotPoint.transform.Rotate(Vector3.up * Time.deltaTime * 50);
     }
 }
