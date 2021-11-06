@@ -104,7 +104,7 @@ namespace com.amerike.Fernando
 		}
 		void Move(Vector3 direction)
 		{
-			characterController.Move((direction * 0.1f) * movementSpeed);
+			characterController.Move((direction * 0.1f) * (movementSpeed * Time.deltaTime));
 		}
 	}
 }

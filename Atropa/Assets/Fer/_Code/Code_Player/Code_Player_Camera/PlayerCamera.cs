@@ -66,14 +66,14 @@ namespace com.amerike.Fernando
 			active = true;
 			Cursor.lockState = CursorLockMode.Locked;
 			Cursor.visible = false;
-			Application.targetFrameRate = 30;
+			Application.targetFrameRate = 60;
 		}
 
 		void CheckMouseInput()
 		{
 			Vector2 mouseMovement = mouse.delta.ReadValue();
-			rotationX = mouseMovement.x * speedCamera.Value;
-			rotationLimit += mouseMovement.y * speedCamera.Value;
+			rotationX = mouseMovement.x * speedCamera.Value * Time.deltaTime * 25f;
+			rotationLimit += mouseMovement.y * speedCamera.Value * Time.deltaTime * 25f;
 			rotationLimit = Mathf.Clamp(rotationLimit, -80, 80f);
 
 			if (invertedYAxis.Value == false)

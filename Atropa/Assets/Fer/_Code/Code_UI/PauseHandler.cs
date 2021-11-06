@@ -25,10 +25,12 @@ public class PauseHandler : MonoBehaviour
         {
             PauseCanvas.gameObject.SetActive(true);
             UnlockMouse();
+            OnEnable();
         } else if ((keyBoard.pKey.wasPressedThisFrame || keyBoard.escapeKey.wasPressedThisFrame) && PauseCanvas.gameObject.activeInHierarchy == true)
         {
-            PauseCanvas.gameObject.SetActive(false);
+            OnDisable();
             lockMouse();
+            PauseCanvas.gameObject.SetActive(false);
         }
     }
 
@@ -59,4 +61,5 @@ public class PauseHandler : MonoBehaviour
         playerScript.Active = true;
         cameraScript.Active = true;
     }
+
 }
