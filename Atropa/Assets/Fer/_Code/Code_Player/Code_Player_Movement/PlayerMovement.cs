@@ -115,7 +115,7 @@ namespace com.amerike.Fernando
             if (characterController.isGrounded && characterController.velocity.magnitude >2f && mySpeaker.isPlaying == false)
             {
 			mySpeaker.clip = myFootsteps[Random.Range(0, myFootsteps.Length)];
-			mySpeaker.pitch = Random.Range(0.7f, 1.0f);
+			mySpeaker.pitch = Random.Range(0.8f, 1.0f);
 			mySpeaker.Play();
             }
         }
