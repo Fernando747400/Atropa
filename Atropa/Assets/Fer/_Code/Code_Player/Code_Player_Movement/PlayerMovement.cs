@@ -34,6 +34,8 @@ namespace com.amerike.Fernando
 		private Vector3 CamRight;
 		private Vector3 CamForward;
 		private float verticalSpeed;
+		[SerializeField] AudioSource mySpeaker;
+		[SerializeField] AudioClip[] myFootsteps;
 		public float movementSpeed = 1.0f;
 		public float gravity = 9.8f;
 		public float jumpHeight = 1.0f;
@@ -105,6 +107,17 @@ namespace com.amerike.Fernando
 		void Move(Vector3 direction)
 		{
 			characterController.Move((direction * 0.1f) * (movementSpeed * Time.deltaTime));
+			playFootsteps();
 		}
+
+		void playFootsteps()
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude >2f && mySpeaker.isPlaying == false)
+            {
+			mySpeaker.clip = myFootsteps[Random.Range(0, myFootsteps.Length)];
+			mySpeaker.pitch = Random.Range(0.7f, 1.0f);
+			mySpeaker.Play();
+            }
+        }
 	}
 }
