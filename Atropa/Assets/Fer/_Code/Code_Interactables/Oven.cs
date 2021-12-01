@@ -8,6 +8,9 @@ public class Oven : MonoBehaviour, IUsable
 	public UnityEvent OnUse;
 	private bool Opened = false;
 	[SerializeField] private bool Inverted;
+	private AudioSource mySpeaker;
+	[SerializeField] private AudioClip openClip;
+	[SerializeField] private AudioClip closeClip;
 
 	public bool CanInteract
 	{
@@ -22,7 +25,12 @@ public class Oven : MonoBehaviour, IUsable
 	}
 	bool canInteract;
 
-	public void Use()
+    public void Start()
+    {
+		mySpeaker = this.GetComponent<AudioSource>();
+    }
+
+    public void Use()
 	{
 		OpenDoor();
 	}
@@ -33,10 +41,16 @@ public class Oven : MonoBehaviour, IUsable
 			print("OPEN");
 			if (Inverted)
 			{
+				mySpeaker.clip = openClip;
+				mySpeaker.pitch = Random.Range(0.8f, 1.0f);
+				mySpeaker.Play();
 				actuateDoor(-90);
 			}
 			else
 			{
+				mySpeaker.clip = openClip;
+				mySpeaker.pitch = Random.Range(0.8f, 1.0f);
+				mySpeaker.Play();
 				actuateDoor(90);
 			}
 			Opened = true;
@@ -45,6 +59,9 @@ public class Oven : MonoBehaviour, IUsable
 		else if (Opened == true)
 		{
 			print("CLOSE");
+			mySpeaker.clip = closeClip;
+			mySpeaker.pitch = Random.Range(0.8f, 1.0f);
+			mySpeaker.Play();
 			actuateDoor(0);
 			Opened = false;
 		}
