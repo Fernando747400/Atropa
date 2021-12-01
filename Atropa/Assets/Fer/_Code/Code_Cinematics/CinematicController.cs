@@ -26,7 +26,7 @@ public class CinematicController : MonoBehaviour
         initialExplosiveHouse.SetActive(true);
         finalExplosiveHouse.SetActive(true);
         initialHouse.SetActive(false);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForFixedUpdate();
         CinematicEventSystem.current.explodeScene();
         yield return new WaitForSeconds(4);
         initialExplosiveHouse.SetActive(false);

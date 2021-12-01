@@ -22,13 +22,15 @@ public class InteractPrompt : MonoBehaviour
 
     public void OnMouseOver()
     {
+        print(transform.name);
         InteractCanvas.gameObject.SetActive(true);
         interactionText.text = myText;
     }
 
     public void OnMouseExit()
     {
+        print("Exited " + transform.name);
+        interactionText.text = "";
         InteractCanvas.gameObject.SetActive(false);
-        interactionText.text = myText;
     }
 }
