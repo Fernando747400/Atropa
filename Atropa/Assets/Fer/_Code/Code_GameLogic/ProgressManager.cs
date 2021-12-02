@@ -43,6 +43,7 @@ public class ProgressManager : MonoBehaviour
     {
         checkFirstHouse();
         checkSecondHouse();
+        checkThirdHouse();
     }
 
     void checkFirstHouse()
@@ -71,6 +72,21 @@ public class ProgressManager : MonoBehaviour
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 secondHouse = true;
                 ExplosionTrigger[1].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    void checkThirdHouse()
+    {
+        if (foundObjects == 25 && thirdHouse == false)
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
+            {
+                DialogManager.SetActive(true);
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "I will never forget this Chirstmas... It was my favourite by far. But I need to continue. Actually, I'm not sure what's happening. I need to go outside";
+                textIterator.GetComponent<TextIteretaor_UI>().Show();
+                thirdHouse = true;
+                ExplosionTrigger[2].gameObject.SetActive(true);
             }
         }
     }
