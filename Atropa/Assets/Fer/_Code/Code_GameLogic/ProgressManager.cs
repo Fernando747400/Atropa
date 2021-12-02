@@ -42,6 +42,7 @@ public class ProgressManager : MonoBehaviour
     void Update()
     {
         checkFirstHouse();
+        checkSecondHouse();
     }
 
     void checkFirstHouse()
@@ -51,10 +52,25 @@ public class ProgressManager : MonoBehaviour
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
                 DialogManager.SetActive(true);
-                textIterator.GetComponent<TextIteretaor_UI>().myText = "Those where all the memories I had in my Infancy. /n It's time to head outside and go to the bus stop";
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "Those where all the memories I had in my Infancy. It's time to head outside and go to the bus stop";
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 firstHouse = true;
                 ExplosionTrigger[0].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    void checkSecondHouse()
+    {
+        if (foundObjects == 16 && secondHouse == false)
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
+            {
+                DialogManager.SetActive(true);
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "This is where I really started to make memories. That trip really made me bond with my parents from now on. [...] I need to head outside";
+                textIterator.GetComponent<TextIteretaor_UI>().Show();
+                secondHouse = true;
+                ExplosionTrigger[1].gameObject.SetActive(true);
             }
         }
     }

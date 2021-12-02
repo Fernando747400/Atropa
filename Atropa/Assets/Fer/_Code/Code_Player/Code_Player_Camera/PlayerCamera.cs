@@ -36,6 +36,7 @@ namespace com.amerike.Fernando
 		[SerializeField] float distanceHit;
 
 		[Header("Prompt Canvas")]
+		[SerializeField] private GameObject grabbCanvas;
 		[SerializeField] private GameObject promptCanvas;
 		[SerializeField] private Text promptText;
 
@@ -111,7 +112,7 @@ namespace com.amerike.Fernando
 			RaycastHit hit;
 			Vector2 coordinate = new Vector2(Screen.width / 2, Screen.height / 2);
 			Ray myRay = myCamera.ScreenPointToRay(coordinate);
-			if (Physics.Raycast(myRay, out hit, distanceHit))
+			if ((Physics.Raycast(myRay, out hit, distanceHit)) && GrabbedObj == null)
 			{
 				IUsable usable = hit.transform.GetComponent<IUsable>();
 				if (usable != null)
@@ -155,12 +156,15 @@ namespace com.amerike.Fernando
 				IUsable usable = rayHit.transform.GetComponent<IUsable>();
 				Grabbable grab = rayHit.transform.GetComponent<Grabbable>();
 				PropDialog propDialog = rayHit.transform.GetComponent<PropDialog>();
-				if (usable != null || grab != null || propDialog != null)
+				if ((usable != null || grab != null || propDialog != null) && GrabbedObj == null)
 				{
 					promptCanvas.SetActive(true);
 					promptText.text = "";
 					promptText.text = rayHit.transform.GetComponent<InteractPrompt>().myText;
-				} else
+				} else if (grab != null && GrabbedObj != null)
+                {
+					grabbCanvas.SetActive(true);
+                } else
                 {
 					promptText.text = "";
 					promptCanvas.SetActive(false);
@@ -179,6 +183,7 @@ namespace com.amerike.Fernando
 				GrabbedObj.GetComponent<Grabbable>().droppObject();
 				GrabbedObj = null;
 				player.gameObject.GetComponent<PlayerMovement>().Active = true;
+				grabbCanvas.SetActive(false);
 			}
         }
 	}
