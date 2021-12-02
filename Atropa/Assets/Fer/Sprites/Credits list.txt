@@ -12,3 +12,21 @@ Ringo Gunther
 
 Textures:
 myfreetextures.com
+
+Music: 
+
+We Wish you a Merry Christmas by Kevin MacLeod
+Link: https://incompetech.filmmusic.io/song/4612-we-wish-you-a-merry-christmas
+License: https://filmmusic.io/standard-license
+
+Heartbreaking by Kevin MacLeod
+Link: https://incompetech.filmmusic.io/song/3863-heartbreaking
+License: https://filmmusic.io/standard-license
+
+Windswept by Kevin MacLeod
+Link: https://incompetech.filmmusic.io/song/4629-windswept
+License: https://filmmusic.io/standard-license
+
+Wholesome by Kevin MacLeod
+Link: https://incompetech.filmmusic.io/song/5050-wholesome
+License: https://filmmusic.io/standard-license
