@@ -164,7 +164,8 @@ namespace com.amerike.Fernando
 				} else if (grab != null && GrabbedObj != null)
                 {
 					grabbCanvas.SetActive(true);
-                } else
+					player.gameObject.GetComponent<PlayerMovement>().Active = false;
+				} else
                 {
 					promptText.text = "";
 					promptCanvas.SetActive(false);

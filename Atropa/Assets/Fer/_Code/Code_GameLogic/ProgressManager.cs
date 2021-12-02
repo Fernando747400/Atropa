@@ -27,7 +27,7 @@ public class ProgressManager : MonoBehaviour
 
     public void Start()
     {
-        foundObjects = 0;
+        foundObjects = 34;
         firstHouse = false;
         secondHouse = false;
         thirdHouse = false;
@@ -41,9 +41,11 @@ public class ProgressManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        checkFirstHouse();
-        checkSecondHouse();
-        checkThirdHouse();
+        //checkFirstHouse();
+        //checkSecondHouse();
+        //checkThirdHouse();
+        //checkFourthHouse();
+        checkFifthHouse();
     }
 
     void checkFirstHouse()
@@ -87,6 +89,36 @@ public class ProgressManager : MonoBehaviour
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 thirdHouse = true;
                 ExplosionTrigger[2].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    void checkFourthHouse()
+    {
+        if (foundObjects == 34 && fourthHouse == false)
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
+            {
+                DialogManager.SetActive(true);
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "Always be thankfull for having those who love close by. Atleast I'm thankfull I'm... I need to keep going. Let's go outside.";
+                textIterator.GetComponent<TextIteretaor_UI>().Show();
+                fourthHouse = true;
+                ExplosionTrigger[3].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    void checkFifthHouse()
+    {
+        if (foundObjects == 41 && fifthHouse == false)
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
+            {
+                DialogManager.SetActive(true);
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "Always be thankfull for having those who love close by. Atleast I'm thankfull I'm... I need to keep going. Let's go outside.";
+                textIterator.GetComponent<TextIteretaor_UI>().Show();
+                fifthHouse = true;
+                ExplosionTrigger[4].gameObject.SetActive(true);
             }
         }
     }
