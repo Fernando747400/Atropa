@@ -20,6 +20,7 @@ public class ProgressManager : MonoBehaviour
     public GameObject textIterator;
     public CharacterController characterController;
     [SerializeField] private GameObject[] ExplosionTrigger = new GameObject[8];
+    [SerializeField] private GameObject lastBottle;
     public void Awake()
     {
         current = this;
@@ -27,7 +28,7 @@ public class ProgressManager : MonoBehaviour
 
     public void Start()
     {
-        foundObjects = 60;
+        foundObjects = 72;
         firstHouse = false;
         secondHouse = false;
         thirdHouse = false;
@@ -46,7 +47,9 @@ public class ProgressManager : MonoBehaviour
         //checkThirdHouse();
         //checkFourthHouse();
         //checkFifthHouse();
-        checkSixthHouse();
+        //checkSixthHouse();
+        //checkSeventhHouse();
+        checkLastCup();
     }
 
     void checkFirstHouse()
@@ -135,6 +138,35 @@ public class ProgressManager : MonoBehaviour
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 sixthHouse = true;
                 ExplosionTrigger[5].gameObject.SetActive(true);
+            }
+        }
+    }   
+    void checkSeventhHouse()
+    {
+        if (foundObjects == 72 && seventhHouse == false)
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
+            {
+                DialogManager.SetActive(true);
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "I... only remember I was already on wonderland. Like... just saw it flashing before my eyes";
+                textIterator.GetComponent<TextIteretaor_UI>().Show();
+                seventhHouse = true;
+                ExplosionTrigger[6].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    void checkLastCup()
+    {
+        if (foundObjects == 72 && lastCup == false)
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
+            {
+                DialogManager.SetActive(true);
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "My way into wonderland is ready... ";
+                textIterator.GetComponent<TextIteretaor_UI>().Show();
+                lastCup = true;
+                lastBottle.SetActive(true);
             }
         }
     }
