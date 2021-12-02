@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class InteractPrompt : MonoBehaviour
 {
-    public Canvas InteractCanvas;
-    public Text interactionText;
-    private string myText = "";
+    //public Canvas InteractCanvas;
+    //public Text interactionText;
+    [HideInInspector] public string myText = "";
 
     public void Start()
     {
@@ -17,9 +17,13 @@ public class InteractPrompt : MonoBehaviour
         } else if (TryGetComponent(out Drawer typeofDrawer) || TryGetComponent(out Door typeofDoor) || TryGetComponent(out Oven typeofOven))
         {
             myText = "Interact";
+        } else if (TryGetComponent(out Grabbable typeofGrabbale))
+        {
+            myText = "Grab";
         }
     }
 
+    /*
     public void OnMouseOver()
     {
         print(transform.name);
@@ -33,4 +37,5 @@ public class InteractPrompt : MonoBehaviour
         interactionText.text = "";
         InteractCanvas.gameObject.SetActive(false);
     }
+    */
 }

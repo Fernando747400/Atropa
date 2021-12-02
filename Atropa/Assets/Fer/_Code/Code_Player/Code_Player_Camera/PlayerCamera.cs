@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 namespace com.amerike.Fernando
 {
@@ -11,9 +12,11 @@ namespace com.amerike.Fernando
 		public event HandlerPlayerCam OnUse;
 		public event HandlerPlayerCam OnGrab;
 		public event HandlerPlayerCam onProp;
+		public event HandlerPlayerCam onPrompt;
 
 		[HideInInspector] public GameObject GrabbedObj;
 		[HideInInspector] public GameObject PropWithDialog;
+		[HideInInspector] public GameObject PropPrompt;
 
 		Mouse mouse;
 		Camera myCamera;
@@ -29,9 +32,12 @@ namespace com.amerike.Fernando
 		[SerializeField] private BoolVariable invertedXAxis;
 
 		[Header("Rycast")]
-
 		[Range(0f, 100f)]
 		[SerializeField] float distanceHit;
+
+		[Header("Prompt Canvas")]
+		[SerializeField] private GameObject promptCanvas;
+		[SerializeField] private Text promptText;
 
 		bool active;
 		public bool Active
@@ -51,6 +57,7 @@ namespace com.amerike.Fernando
 			if (active)
 			{
 				if (mouse != null && myCamera != null) CheckMouseInput();
+				checkInteractable();
 			}
 		}
 
@@ -130,6 +137,33 @@ namespace com.amerike.Fernando
 						onProp(this);
 					}									
                 }
+			}
+		}
+
+		void checkInteractable()
+        {
+			RaycastHit rayHit;
+			Vector2 coordinate = new Vector2(Screen.width / 2, Screen.height / 2);
+			Ray myRay = myCamera.ScreenPointToRay(coordinate);
+			if (Physics.Raycast(myRay, out rayHit, distanceHit))
+			{
+				IUsable usable = rayHit.transform.GetComponent<IUsable>();
+				Grabbable grab = rayHit.transform.GetComponent<Grabbable>();
+				PropDialog propDialog = rayHit.transform.GetComponent<PropDialog>();
+				if (usable != null || grab != null || propDialog != null)
+				{
+					promptCanvas.SetActive(true);
+					promptText.text = "";
+					promptText.text = rayHit.transform.GetComponent<InteractPrompt>().myText;
+				} else
+                {
+					promptText.text = "";
+					promptCanvas.SetActive(false);
+                }
+			} else
+            {
+				promptText.text = "";
+				promptCanvas.SetActive(false);
 			}
 		}
 
