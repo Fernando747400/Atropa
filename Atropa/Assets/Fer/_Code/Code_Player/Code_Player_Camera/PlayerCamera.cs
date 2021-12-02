@@ -137,6 +137,11 @@ namespace com.amerike.Fernando
 						onProp(this);
 					}									
                 }
+				SpecialItem specialItem = hit.transform.GetComponent<SpecialItem>();
+				if (specialItem != null)
+				{
+					specialItem.gameObject.GetComponent<SpecialItem>().useSpecialItem();
+				}
 			}
 		}
 

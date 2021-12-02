@@ -13,4 +13,12 @@ public class TriggerExplosion : MonoBehaviour
             cinematics.explodeHouses();
         }
     }
+
+    public void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

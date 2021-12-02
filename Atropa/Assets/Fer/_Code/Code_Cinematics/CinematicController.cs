@@ -12,6 +12,8 @@ public class CinematicController : MonoBehaviour
     public GameObject playerCamera;
     public PlayerCamera cameraScript;
     public PlayerMovement playerScript;
+    public AudioSource musicSource;
+    public AudioClip newSong;
 
     public void explodeHouses()
     {
@@ -36,6 +38,7 @@ public class CinematicController : MonoBehaviour
         finalExplosiveHouse.SetActive(false);
         yield return new WaitForSeconds(1);
         startInputs();
+        changeMusic();
     }
 
     public void rotatePlayer()
@@ -53,5 +56,14 @@ public class CinematicController : MonoBehaviour
     {
         cameraScript.Active = true;
         playerScript.Active = true;
+    }
+
+    public void changeMusic()
+    {
+        musicSource.Stop();
+        musicSource.clip = newSong;
+        musicSource.Play();
+        musicSource.loop = true;
+        musicSource.volume = 0.1f;
     }
 }
