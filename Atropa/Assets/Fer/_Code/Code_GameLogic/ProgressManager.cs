@@ -27,7 +27,7 @@ public class ProgressManager : MonoBehaviour
 
     public void Start()
     {
-        foundObjects = 34;
+        foundObjects = 60;
         firstHouse = false;
         secondHouse = false;
         thirdHouse = false;
@@ -45,7 +45,8 @@ public class ProgressManager : MonoBehaviour
         //checkSecondHouse();
         //checkThirdHouse();
         //checkFourthHouse();
-        checkFifthHouse();
+        //checkFifthHouse();
+        checkSixthHouse();
     }
 
     void checkFirstHouse()
@@ -115,10 +116,25 @@ public class ProgressManager : MonoBehaviour
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
                 DialogManager.SetActive(true);
-                textIterator.GetComponent<TextIteretaor_UI>().myText = "Always be thankfull for having those who love close by. Atleast I'm thankfull I'm... I need to keep going. Let's go outside.";
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "Sometimes this fights are way to much for me... I just want to run and never come back. I might aswell do that... Let's go to be bus stop outside.";
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 fifthHouse = true;
                 ExplosionTrigger[4].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    void checkSixthHouse()
+    {
+        if (foundObjects == 64 && sixthHouse == false)
+        {
+            if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
+            {
+                DialogManager.SetActive(true);
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "I no longer feel like myself. Like I can't feel my body anymore... I need some freash air. Let's go outside.";
+                textIterator.GetComponent<TextIteretaor_UI>().Show();
+                sixthHouse = true;
+                ExplosionTrigger[5].gameObject.SetActive(true);
             }
         }
     }
