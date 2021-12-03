@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 using com.amerike.Fernando;
 
 public class CinematicController : MonoBehaviour
@@ -14,6 +15,8 @@ public class CinematicController : MonoBehaviour
     public PlayerMovement playerScript;
     public AudioSource musicSource;
     public AudioClip newSong;
+    public PostProcessVolume ppVolume;
+    private ColorGrading colorGrading;
 
     public void explodeHouses()
     {
@@ -32,13 +35,15 @@ public class CinematicController : MonoBehaviour
         CinematicEventSystem.current.explodeScene();
         yield return new WaitForSeconds(4);
         initialExplosiveHouse.SetActive(false);
+        changeMusic();
+        changeSaturation();
         CinematicEventSystem.current.rollbackScene();
         yield return new WaitForSeconds(4);
         finalHouse.SetActive(true);
         finalExplosiveHouse.SetActive(false);
         yield return new WaitForSeconds(1);
         startInputs();
-        changeMusic();
+        
     }
 
     public void rotatePlayer()
@@ -65,5 +70,11 @@ public class CinematicController : MonoBehaviour
         musicSource.Play();
         musicSource.loop = true;
         musicSource.volume = 0.1f;
+    }
+
+    public void changeSaturation()
+    {
+        ppVolume.profile.TryGetSettings(out colorGrading);
+        colorGrading.saturation.value = colorGrading.saturation.value - 10;
     }
 }
