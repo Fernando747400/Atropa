@@ -29,7 +29,7 @@ public class ProgressManager : MonoBehaviour
 
     public void Start()
     {
-        foundObjects = 70;
+        foundObjects = 0;
         firstHouse = false;
         secondHouse = false;
         thirdHouse = false;
@@ -43,12 +43,12 @@ public class ProgressManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //checkFirstHouse();
-        //checkSecondHouse();
-        //checkThirdHouse();
-        //checkFourthHouse();
-        //checkFifthHouse();
-        //checkSixthHouse();
+        checkFirstHouse();
+        checkSecondHouse();
+        checkThirdHouse();
+        checkFourthHouse();
+        checkFifthHouse();
+        checkSixthHouse();
         checkSeventhHouse();
         checkLastCup();
     }
@@ -130,7 +130,7 @@ public class ProgressManager : MonoBehaviour
 
     void checkSixthHouse()
     {
-        if (foundObjects == 64 && sixthHouse == false)
+        if (foundObjects == 71 && sixthHouse == false)
         {
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
@@ -144,7 +144,7 @@ public class ProgressManager : MonoBehaviour
     }   
     void checkSeventhHouse()
     {
-        if (foundObjects == 72 && seventhHouse == false)
+        if (foundObjects == 79 && seventhHouse == false)
         {
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
@@ -159,7 +159,7 @@ public class ProgressManager : MonoBehaviour
 
     void checkLastCup()
     {
-        if (foundObjects == 82 && lastCup == false) // continue here
+        if (foundObjects == 89 && lastCup == false) // continue here
         {
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
