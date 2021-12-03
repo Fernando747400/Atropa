@@ -105,7 +105,7 @@ public class ProgressManager : MonoBehaviour
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
                 DialogManager.SetActive(true);
-                textIterator.GetComponent<TextIteretaor_UI>().myText = "Always be thankfull for having those who love close by. Atleast I'm thankfull I'm... I need to keep going. Let's go outside.";
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "Always be thankfull for having those who we love close by. Atleast I'm thankfull I'm... I need to keep going. Let's go outside.";
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 fourthHouse = true;
                 ExplosionTrigger[3].gameObject.SetActive(true);
@@ -120,7 +120,7 @@ public class ProgressManager : MonoBehaviour
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
                 DialogManager.SetActive(true);
-                textIterator.GetComponent<TextIteretaor_UI>().myText = "Sometimes this fights are way to much for me... I just want to run and never come back. I might aswell do that... Let's go to be bus stop outside.";
+                textIterator.GetComponent<TextIteretaor_UI>().myText = "Sometimes this fights are way too much for me... I just want to run and never come back. I might aswell do that... Let's go to be bus stop outside.";
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 fifthHouse = true;
                 ExplosionTrigger[4].gameObject.SetActive(true);
