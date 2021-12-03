@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fer/Scenes/Scenes_Master/02_End_Credits.unity
     guid: 9bbbf0d8ce2381647b9b060c7ef078ff
+  - enabled: 1
+    path: Assets/Fer/Scenes/Scenes_Master/03_Start_Credits.unity
+    guid: 25dc8708056041d42956c9eec68e6a58
   m_configObjects: {}

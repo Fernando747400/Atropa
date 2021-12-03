@@ -17,4 +17,9 @@ public class SceneTransition : MonoBehaviour
     {
         SceneManager.LoadScene("00_Main_Menu");
     }
+
+    public void credits()
+    {
+        SceneManager.LoadScene("03_Start_Credits");
+    }
 }
