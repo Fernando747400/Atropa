@@ -21,6 +21,7 @@ public class ProgressManager : MonoBehaviour
     public CharacterController characterController;
     [SerializeField] private GameObject[] ExplosionTrigger = new GameObject[8];
     [SerializeField] private GameObject lastBottle;
+    [SerializeField] private GameObject greenhouseDoor;
     public void Awake()
     {
         current = this;
@@ -28,7 +29,7 @@ public class ProgressManager : MonoBehaviour
 
     public void Start()
     {
-        foundObjects = 72;
+        foundObjects = 70;
         firstHouse = false;
         secondHouse = false;
         thirdHouse = false;
@@ -48,7 +49,7 @@ public class ProgressManager : MonoBehaviour
         //checkFourthHouse();
         //checkFifthHouse();
         //checkSixthHouse();
-        //checkSeventhHouse();
+        checkSeventhHouse();
         checkLastCup();
     }
 
@@ -158,7 +159,7 @@ public class ProgressManager : MonoBehaviour
 
     void checkLastCup()
     {
-        if (foundObjects == 72 && lastCup == false)
+        if (foundObjects == 82 && lastCup == false) // continue here
         {
             if (characterController.isGrounded && characterController.velocity.magnitude > 2f && !DialogManager.activeInHierarchy)
             {
@@ -167,6 +168,7 @@ public class ProgressManager : MonoBehaviour
                 textIterator.GetComponent<TextIteretaor_UI>().Show();
                 lastCup = true;
                 lastBottle.SetActive(true);
+                greenhouseDoor.SetActive(true);
             }
         }
     }
