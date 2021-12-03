@@ -43,12 +43,12 @@ public class ProgressManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        checkFirstHouse();
+        /*checkFirstHouse();
         checkSecondHouse();
         checkThirdHouse();
         checkFourthHouse();
         checkFifthHouse();
-        checkSixthHouse();
+        checkSixthHouse();*/
         checkSeventhHouse();
         checkLastCup();
     }
