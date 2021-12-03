@@ -12,4 +12,9 @@ public class SceneTransition : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void mainMenu()
+    {
+        SceneManager.LoadScene("00_Main_Menu");
+    }
 }
