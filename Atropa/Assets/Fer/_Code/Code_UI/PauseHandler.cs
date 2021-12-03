@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using com.amerike.Fernando;
+using UnityEngine.SceneManagement;
 
 public class PauseHandler : MonoBehaviour
 {
@@ -52,6 +53,7 @@ public class PauseHandler : MonoBehaviour
         {
             TextCanvas.SetActive(false);
         }
+        cameraScript.leaveObject();
         playerScript.Active = false;
         cameraScript.Active = false;
     }
@@ -60,6 +62,12 @@ public class PauseHandler : MonoBehaviour
     {
         playerScript.Active = true;
         cameraScript.Active = true;
+    }
+
+    public void mainMenu()
+    {
+        UnlockMouse();
+        SceneManager.LoadScene("00_Main_Menu");
     }
 
 }

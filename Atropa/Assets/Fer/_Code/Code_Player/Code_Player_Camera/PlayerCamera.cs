@@ -143,6 +143,11 @@ namespace com.amerike.Fernando
 				{
 					specialItem.gameObject.GetComponent<SpecialItem>().useSpecialItem();
 				}
+				AliceBeverage aliceDrink = hit.transform.GetComponent<AliceBeverage>();
+				if(aliceDrink != null)
+                {
+					aliceDrink.gameObject.GetComponent<AliceBeverage>().drinkAlice();
+                }
 			}
 		}
 
@@ -156,7 +161,8 @@ namespace com.amerike.Fernando
 				IUsable usable = rayHit.transform.GetComponent<IUsable>();
 				Grabbable grab = rayHit.transform.GetComponent<Grabbable>();
 				PropDialog propDialog = rayHit.transform.GetComponent<PropDialog>();
-				if ((usable != null || grab != null || propDialog != null) && GrabbedObj == null)
+				AliceBeverage aliceDrink = rayHit.transform.GetComponent<AliceBeverage>();
+				if ((usable != null || grab != null || propDialog != null || aliceDrink != null) && GrabbedObj == null)
 				{
 					promptCanvas.SetActive(true);
 					promptText.text = "";
@@ -177,7 +183,7 @@ namespace com.amerike.Fernando
 			}
 		}
 
-		void leaveObject()
+		public void leaveObject()
         {
 			if (GrabbedObj != null)
             {

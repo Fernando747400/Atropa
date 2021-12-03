@@ -20,6 +20,11 @@ public class InteractPrompt : MonoBehaviour
         } else if (TryGetComponent(out Grabbable typeofGrabbale))
         {
             myText = "Grab";
+        } 
+        
+        if (TryGetComponent(out AliceBeverage typeofAlice))
+        {
+            myText = "Drink";
         }
     }
 
